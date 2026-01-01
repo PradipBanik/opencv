@@ -32,8 +32,8 @@ con_input = st.slider("Confidence", 0, 100)
 con_input = con_input/100
 
 col1, col2 = st.columns(2)
-col1.write("This is column 1")
-col2.write("This is column 2")
+# col1.write("This is column 1")
+# col2.write("This is column 2")
 
 if img_faces is not None:
     # Convert uploaded file to bytes
@@ -55,4 +55,5 @@ if img_faces is not None:
     # cv2.imshow("Face Detection", img_faces)
     # cv2.waitKey(0)
 # detect(img_faces, con_input):
+
 # st.image(img_faces)
