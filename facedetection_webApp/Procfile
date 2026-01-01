@@ -1,1 +1,2 @@
-web: sh streamlit run module7_facerec_with_pradip.py
+web: streamlit run module7_facerec_with_pradip.py
+
