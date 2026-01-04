@@ -1,2 +1,2 @@
-#Image Filter with OpenCV
-
+# Image Filter with OpenCV
+# Face Detection using OpenCV and Streamlit
