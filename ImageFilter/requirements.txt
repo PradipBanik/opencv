@@ -6,3 +6,5 @@ matplotlib==3.9.2
 pyautogui
 mediapipe
 mime
+libGL1
+libGL1-mesa-glx
