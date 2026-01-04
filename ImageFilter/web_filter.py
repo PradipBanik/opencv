@@ -2,10 +2,10 @@ import streamlit as st
 import cv2
 import numpy as np
 # from isort.io import Empty
-import os
-base_dir = os.path.dirname(__file__)
-prototxt = os.path.join(base_dir, "module8_with_pradip.py")
-from prototxt import buttons as filter
+# import os
+# base_dir = os.path.dirname(__file__)
+# prototxt = os.path.join(base_dir, "module8_with_pradip.py")
+from .module8_with_pradip import buttons as filter
 # button =
 st.title("IMAGE FILTER")
 image = st.file_uploader("Choose a file", type=["jpg", "png"])
@@ -60,5 +60,6 @@ if image is not None:
                            data=img_filter_canny.tobytes(), file_name="filter_image.png")
 
     cv2.waitKey(0)
+
 
 
