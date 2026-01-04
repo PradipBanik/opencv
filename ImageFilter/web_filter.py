@@ -59,7 +59,8 @@ if image is not None:
         col2.download_button("download",
                            data=img_filter_canny.tobytes(), file_name="filter_image.png")
 
-    cv2.waitKey(0)
+    # cv2.waitKey(0)
+
 
 
 
