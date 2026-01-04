@@ -5,7 +5,7 @@ import numpy as np
 # import os
 # base_dir = os.path.dirname(__file__)
 # prototxt = os.path.join(base_dir, "module8_with_pradip.py")
-from .module8_with_pradip import buttons as filter
+from module8_with_pradip import buttons as filter
 # button =
 st.title("IMAGE FILTER")
 image = st.file_uploader("Choose a file", type=["jpg", "png"])
@@ -60,6 +60,7 @@ if image is not None:
                            data=img_filter_canny.tobytes(), file_name="filter_image.png")
 
     cv2.waitKey(0)
+
 
 
 
